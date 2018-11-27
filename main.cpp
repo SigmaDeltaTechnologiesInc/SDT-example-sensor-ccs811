@@ -1,4 +1,4 @@
-/* SDT-example-blinky
+/* SDT-example-sensor-ccs811
  * 
  * Copyright (c) 2018 Sigma Delta Technologies Inc.
  * 
