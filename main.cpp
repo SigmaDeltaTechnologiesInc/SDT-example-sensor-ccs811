@@ -34,8 +34,8 @@
 Serial serial_pc(USBTX, USBRX, BAUDRATE);
 
 /* Sensor */
-CCS811 ccs811(I2C0_SDA, I2C0_SCL);
-DigitalOut do_ccs811_wake(SPI0_SS0, 0);     // nWAKE pin is an active low input and should be asserted by the host prior to an I²C transaction and held low throughout.
+CCS811 ccs811(I2C1_SDA, I2C1_SCL);
+DigitalOut do_ccs811_wake(SPI1_SS0, 0);     // nWAKE pin is an active low input and should be asserted by the host prior to an I²C transaction and held low throughout.
 uint16_t eco2, tvoc;
 char status = 0;
 
